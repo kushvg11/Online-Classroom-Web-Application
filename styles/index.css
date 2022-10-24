@@ -1,0 +1,74 @@
+.container-carousel {
+  margin: 2% 15% 0 15%;
+  width: 70%;
+}
+
+.carousel-indicators li {
+  background-color: #5d0088;
+  height: 5px;
+}
+
+.carousel-inner, .carousel-item {
+  height: 100%;
+}
+
+.img-carousel {
+  height: 100%;
+  width: 100%;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+.content-heading {
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #3b007e;
+}
+
+.sub-heading {
+  margin: 0;
+  margin-bottom: 2%;
+  padding-top: 2%;
+  font-size: 25px;
+  font-weight: bold;
+  color: #742fc2;
+}
+
+.img-features {
+  width: 100%;
+  background-color: white;
+}
+
+.img-about-us {
+  width: 70%;
+}
+
+.contact-us-heading {
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.container-contact-us {
+  border-radius: 10px;
+  background-color: #495c6a;
+}
+
+.img-contact-us {
+  width: 20%;
+  margin: 15% 0 10% 0;
+}
+
+.text-contact-us {
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin: 0 10% 15% 10%;
+}
+
+legend.contact-us-legend {
+  top: 16px;
+}

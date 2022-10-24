@@ -1,0 +1,190 @@
+form {
+  padding: 20px;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+
+.login-form,
+.reset-password-form,
+.contact-us-form {
+  width: 40%;
+  margin: 25px 30%;
+}
+
+.register-form {
+  width: 60%;
+  margin: 25px 20%;
+}
+
+.form-heading {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 0 15px 0;
+  color: #3b007e;
+}
+
+legend {
+  position: absolute;
+  top: -14px;
+  left: 6px;
+  width: max-content;
+  padding: 0 5px;
+  font-size: 17px;
+  color: #742fc2;
+  background-color: white;
+  visibility: hidden;
+}
+
+.options {
+  font-size: 17px;
+  color: #742fc2;
+  border: 2px solid #742fc2;
+  border-radius: 5px;
+}
+
+.options input {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.options label {
+  padding: 10px;
+  margin: 0;
+}
+
+.options legend,
+.visible legend {
+  visibility: visible;
+}
+
+.register legend {
+  left: 22px;
+}
+
+input,
+.submit,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color: #742fc2;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+select {
+  height: 50px;
+}
+
+legend.inputField {
+  visibility: visible;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 2px #742fc2;
+}
+
+input[type=radio] {
+  font-size: 17px;
+  box-shadow: none;
+}
+
+::placeholder {
+  color: #742fc2;
+}
+
+.submit,
+.submit:focus {
+  display: block;
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 2px #04AA6D;
+}
+
+.success input,
+.success textarea {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 2px #2ecc71;
+}
+
+.error input,
+.error textarea,
+.error select {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 2px #e74c3c;
+}
+
+i {
+  position: absolute;
+  top: 17px;
+  right: 10px;
+  font-size: 15px;
+  visibility: hidden;
+}
+
+p.message {
+  font-size: 15px;
+  visibility: hidden;
+  margin: 0 0 15px 10px;
+}
+
+.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.error p.message {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.links {
+  margin-top: 3%;
+}
+
+div.text-center a,
+div.text-center a:hover {
+  text-decoration: none;
+  font-size: 17px;
+  color: #742fc2;
+}
+
+.spinner {
+  display: none;
+  height: 45px;
+  background-color: #04AA6D;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 2px #04AA6D;
+}
+
+i.fa-spinner {
+  position: absolute;
+  top: 8px;
+  right: 48%;
+  font-size: 25px;
+  color: white;
+  visibility: visible;
+}
+
+.hide-input {
+  display: none;
+}
